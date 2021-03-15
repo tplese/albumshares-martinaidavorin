@@ -13,7 +13,7 @@ const storage = new Storage();
 // ********** Google Cloud Storage ********** END **********
 
 
-const directoryName = 'photos2';
+const directoryName = 'obrade2';
 let dirHashExists = false;
 let photosFullsList = [];
 let listOfPhotoObjects2 = [];

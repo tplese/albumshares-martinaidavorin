@@ -814,10 +814,10 @@
                 if (_src) {
                     let photosUrl;
 
-                    if (_src.includes('photos/fulls')) {
-                        photosUrl = _src.replace('martinaidavorin_storage/photos/fulls/', 'download/storage/v1/b/martinaidavorin_storage/o/photos%2Ffulls%2F') + '?alt=media';
-                    } else if (_src.includes('photos2/fulls')) {
-                        photosUrl = _src.replace('martinaidavorin_storage/photos2/fulls/', 'download/storage/v1/b/martinaidavorin_storage/o/photos2%2Ffulls%2F') + '?alt=media';
+                    if (_src.includes('obrade1/fulls')) {
+                        photosUrl = _src.replace('martinaidavorin_storage/obrade1/fulls/', 'download/storage/v1/b/martinaidavorin_storage/o/obrade1%2Ffulls%2F') + '?alt=media';
+                    } else if (_src.includes('obrade2/fulls')) {
+                        photosUrl = _src.replace('martinaidavorin_storage/obrade2/fulls/', 'download/storage/v1/b/martinaidavorin_storage/o/obrade2%2Ffulls%2F') + '?alt=media';
                     };
                     $('#lg-download').attr('href', photosUrl);
                     _this.$outer.removeClass('lg-hide-download');
